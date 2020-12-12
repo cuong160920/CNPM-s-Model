@@ -3,6 +3,13 @@ package models;
 public class HoNopTien {
 	private int id_hokhau;
 	private int hokhau;
+	private int sonhankhau;
+	public int getSonhankhau() {
+		return sonhankhau;
+	}
+	public void setSonhankhau(int sonhankhau) {
+		this.sonhankhau = sonhankhau;
+	}
 	private String trangthai;
 	public int getId_hokhau() {
 		return id_hokhau;
